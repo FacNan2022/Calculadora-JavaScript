@@ -1,32 +1,35 @@
-#appbg{
+#appbg {
     width: 300px;
     height: 420px;
     border: 2px solid green;
     border-radius: 5px;
 }
 
-#appbg form{
+#appbg form {
     width: 100%;
-    height: 100%;
+    height: 420px;
+    position: relative;
     background-color: rgb(0, 0, 0);
 }
 
-#appbg input[ type=texfield]{
-width: 100%;
-height: 25%;
-cursor: default;
-font-family: 'roboto', sans-serif;
-background-color: rgba(0, 0, 0);
-color:chartreuse;
-padding: 15px;
-text-align: right;
-font-size: 50px;
-border: 0;
-outline: none;
+#appbg input[ type=texfield] {
+    width: 253px;
+    height: 9%;
+    cursor: default;
+    font-family: 'roboto', sans-serif;
+    background-color: rgba(0, 0, 0);
+    color: chartreuse;
+    padding: 15px;
+    margin: 5px 5px;
+    text-align: right;
+    font-size: 50px;
+    outline: none;
+    border: rgb(45, 119, 18) solid;
 }
 
 
-#appbg input[type=button], input[type=reset]{
+#appbg input[type=button],
+input[type=reset] {
     width: 22%;
     cursor: pointer;
     font-family: 'roboto', sans-serif;
@@ -39,13 +42,12 @@ outline: none;
     border-radius: 100%;
 }
 
-#appbg  .green {
+#appbg .green {
     background-color: rgb(45, 119, 18) !important;
     color: white !important
-
 }
 
-#appbg  .gray{
+#appbg .gray {
     background-color: rgb(51, 51, 51) !important;
     color: white !important;
 }
