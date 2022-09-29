@@ -15,7 +15,8 @@
     <div id="appbg">
         <form name="calculadora">
             <input type="texfield" name="ans" value="" autocomplete="off" readonly>
-
+            
+            <div class="botones">
             <input type="button" value="7" onclick="document.calculadora.ans.value+='7'" class="gray">
             <input type="button" value="8" onclick="document.calculadora.ans.value+='8'" class="gray" >
             <input type="button" value="9" onclick="document.calculadora.ans.value+='9'" class="gray" >
@@ -35,7 +36,7 @@
             <input type="reset" value="c">
             <input type="button" value="=" onclick="document.calculadora.ans.value=eval(document.calculadora.ans.value)">
             <input type="button" value="/"onclick="document.calculadora.ans.value+='/'" class="green" >
-
+        </div>
  
  
         </form>
